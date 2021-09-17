@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboards.AdminDash">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logomain"
+        android:src="@drawable/applogo"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ProgressBar
+        android:layout_below="@id/logomain"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/progress"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/progress"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerBook"
+        android:layout_margin="20dp"
+        tools:listitem="@layout/book_item"
+        />
+
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:menu="@menu/bottom_nav_menu"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/bottomNav"
+            />
+
+
+</RelativeLayout>

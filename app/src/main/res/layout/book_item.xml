@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nameofclient"
+            android:padding="10dp"
+            android:fontFamily="sans-serif-black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nameofclient"
+            android:padding="10dp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:id="@+id/clientBook"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contactbook"
+            android:padding="10dp"
+            android:fontFamily="sans-serif-black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nameofclient"
+            android:padding="10dp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:id="@+id/phoneBook"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/servicebook"
+            android:padding="10dp"
+            android:fontFamily="sans-serif-black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nameofclient"
+            android:padding="10dp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:id="@+id/serviceBook"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/timebook"
+            android:padding="10dp"
+            android:fontFamily="sans-serif-black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nameofclient"
+            android:padding="10dp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:id="@+id/timeBook"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/datebook"
+            android:padding="10dp"
+            android:fontFamily="sans-serif-black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nameofclient"
+            android:padding="10dp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:id="@+id/datebook"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginBottom="10dp"
+        >
+
+       <androidx.appcompat.widget.AppCompatButton
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:layout_marginStart="20dp"
+           android:layout_marginEnd="20dp"
+           android:background="#4CAF50"
+           android:text="Confirm Booking"
+           android:textAllCaps="false"
+           android:textColor="#fff"
+           android:id="@+id/confirmBooking"
+           />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#CDDC39"
+            android:text="Review Booking"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:id="@+id/reviewBooking"
+/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SpaApp</string>
+    <string name="select">Select User Type</string>
+    <string name="Bookapp">Book Appointment</string>
+    <string name="admin">Admin</string>
+    <string name="bizadm">Spa Administration</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="bookings">Bookings</string>
+    <string name="conbook">Confirmed Bookings</string>
+    <string name="logout">Logout</string>
+    <string name="nameofclient">Client\'s Name</string>
+    <string name="contactbook">Phone Contact</string>
+    <string name="servicebook">Service Booked</string>
+    <string name="timebook">Time Booked</string>
+    <string name="datebook">Date Booked</string>
+    <string name="bookserve">Book Service</string>
+    <string name="viewserve">View Services</string>
+    <string name="sample">RecyclerView makes it easy to efficiently display large sets of data. You supply the data and define how each item looks, and the RecyclerView library dynamically creates the elements when they’re needed.</string>
+    <string name="fullname">Full Name</string>
+    <string name="phone">Contact Phone Number</string>
+    <string name="pickService">Pick Service</string>
+    <string name="date">Visit Date</string>
+    <string name="visittime">Visit Time(8:00AM - 9:00PM)</string>
+</resources>
